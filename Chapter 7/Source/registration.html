@@ -1,0 +1,95 @@
+<!DOCTYPE html>   
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Summer Smash 2010 Registration</title>
+	<link href='http://fonts.googleapis.com/css?family=Frijole' rel='stylesheet'>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/print.css" media="print">
+	<script src="/js/javascript.js"></script>
+</head>
+<body>
+<div id="pagewrap">
+		<header>
+			<a href="/">
+				<h1>Summer Smash 2012</h1>
+				<p>This summer’s most smashing event!</p>
+			</a>
+		</header>
+		<section id="main">
+			<section id="registration_form">
+			<form action="/registration/">
+				<fieldset>
+				<legend>Registrant Information</legend>
+				<ol>
+					<li class="formitem">
+					<label for="name">Registrant name:</label>
+					<input type="text" name="name" id="name" required autofocus />
+					</li>
+					<li class="formitem">
+					<label for="email">Email address:</label>
+					<input type="email" name="email" id="email" required />
+					</li>
+					<li class="formitem">
+					<label for="phone">Phone number:</label>
+					<input type="tel" name="phone" id="phone" />
+					</li>
+					<li class="formitem">
+					<label for="party">How many people do you have in your party (including yourself)?</label>
+					<input type="number" name="party" id="party" min="1" max="10" />
+					</li>
+					<li class="formitem">
+					<label for="dob">Your date of birth:</label>
+					<input type="date" name="dob" id="dob" />
+					</li>
+				</ol>
+			</fieldset>
+			<fieldset>
+			<legend>A few quick questions</legend>
+			<ol>
+				<li class="formitem">
+			Is this your first Summer Smash event?
+			<ul>
+				<li>
+			<input type="radio" name="yes_first" id="yes_first" value="1" />
+			<label for="yes_first">Yes, this is my first</label>
+			</li>
+			<li>
+			<input type="radio" name="no_first" id="no_first" value="0" />
+			<label for="no_first">No, I’ve been to one before</label>
+			</li>
+					</ul>
+					</li>
+					<li class="formitem">
+					<label for="how_hear">How did you hear about Summer Smash 2012?</label>
+					<input type="text" name="how_hear" id="how_hear" list="media">
+			<datalist id="media">
+						<option value="Google search">
+						<option value="Magazine ad">
+						<option value="A friend told me">
+						<option value="An enemy told me">
+						<option value="My dog told me">
+						<option value="My dead uncle Henry told me">
+			</datalist>
+			</li>
+			</ol>
+			</fieldset>
+			<input type="submit" value="Register now!" />
+			</form>
+			</section>
+			
+			<aside>
+<h2>Questions about whether Summer Smash is right for you?</h2>
+				<p>We’re here to help! Our team of smashtastic smashers will shatter any doubt in your mind. Why not give us a call, or send us an email?</p>
+				<ul>
+					<li>Call: 1-800-555-5555</li>
+					<li>Email: <a href="mailto:smash@example.com">smash@example.com</a></li>
+				</ul>
+</aside>		
+</section>
+		<footer>
+			<p>Summer Smash 2012. A Barker and Lane Production.</p>
+		</footer>
+	</div>	
+</body>
+</html>

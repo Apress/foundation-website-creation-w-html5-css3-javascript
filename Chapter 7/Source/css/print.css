@@ -1,0 +1,45 @@
+html, body {
+	background-color: #fff;
+	background-image: none;
+	color: #000;
+}
+body {
+	margin: 0.25in;
+}
+a {
+	text-decoration: none;
+	color: #000;
+}
+header {
+	background-color: #fff;
+}
+header h1, header p {
+	color: #000;
+	text-align: left;
+}
+div#pagewrap {
+	width: 100%;
+}
+aside, footer {
+	display: none;
+}
+section#main {
+	float: none;
+}
+section#registration_form {
+	width: 100%;
+	float: none;
+}
+input[type="text"], input[type="number"], input[type="tel"], input[type="email"], input[type="date"] {
+	background-color: #fff;
+	border-bottom: 1px solid #000;
+	font-size: 1.3em;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	-o-border-radius: 0;
+	border-radius: 0;
+	width: 100%;
+}
+input[type="submit"] {
+	display: none;
+}
